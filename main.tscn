@@ -41,6 +41,6 @@ offset_bottom = 350.0
 horizontal_alignment = 1
 text = "GAME OVER!"
 
-[node name="CoinSpawnTimer" type="Timer"]
+[node name="CoinSpawnTimer" type="Timer" parent="."]
 wait_time = 1.0
 autostart = true

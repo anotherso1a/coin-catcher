@@ -8,9 +8,9 @@ var game_over = false
 
 # 节点引用
 @onready var player = $Player
-@onready var score_label = $UI/ScoreLabel
-@onready var lives_label = $UI/LivesLabel
-@onready var game_over_label = $UI/GameOverLabel
+@onready var score_label = $CanvasLayer/ScoreLabel
+@onready var lives_label = $CanvasLayer/LivesLabel
+@onready var game_over_label = $CanvasLayer/GameOverLabel
 @onready var coin_spawn_timer = $CoinSpawnTimer
 
 # 预加载
